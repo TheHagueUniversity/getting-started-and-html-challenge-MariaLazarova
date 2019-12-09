@@ -6,18 +6,23 @@
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>
-        <b>HTML Essential Training
-            Introduction to HTML </b>
-    </h1>
-    <h2>Next steps</h2>
+  <header role="banner">
+      <h1>
+          <b>HTML Essential Training
+              Introduction to HTML </b>
+      </h1>
+      <h2>Next steps</h2>
+  </header>
+    
     <nav role="navigation">
-      <p><a href="intro.html" title="Introduction to HTML">Introduction to HTML</a></p>
-      <p><a href="syntax.html" title="HTML syntax">HTML syntax</a></p>
-      <p><a href="links.html" title="Creating links">Creating links</a></p>
-      <p><a href="reference.html" title="HTML Reference">HTML reference</a></p>
-      <p><a href="next.html" title="Next steps">Next steps</a></p>
-      <p><a href="structure.html" title="Structure">Structure</a></p>
+        <ul>
+            <li><a href="intro.html" title="Introduction to HTML">Introduction to HTML</a></li>
+            <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
+            <li><a href="links.html" title="Creating links">Creating links</a></li>
+            <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
+            <li><a href="next.html" title="Next steps">Next steps</a></li>
+            <li><a href="structure.html" title="Structure">Structure</a></li>
+        </ul>
     </nav>
 <article>
   <section>
@@ -79,7 +84,10 @@
   </div>
 </article>
 <footer>
-    <p>&copy; lynda.com | follow me and lynda.com on Twitter! @jameswillweb @lyndadotcom</p>
+    <nav role="contentinfo">
+        <p>&copy; <a href="https://www.lynda.com/" title="lynda.com" target="_blank">lynda.com</a> | 
+        <a href="https://twitter.com/lynda?lang=en/" title="@lynda" target="_blank">follow me and lynda.com on Twitter!</a> @jameswillweb @lyndadotcom</p>
+    </nav>
 </footer>
 </body>
 </html>
